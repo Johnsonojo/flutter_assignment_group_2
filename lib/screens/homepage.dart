@@ -20,7 +20,8 @@ class Homepage extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.transparent,
+        elevation: 0.0,
+        backgroundColor: const Color(0xFF768ded),
       ),
       body: SafeArea(
         child: Container(
