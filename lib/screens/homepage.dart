@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment_group_2/components/reusable_button.dart';
+
+import '../components/reusable_button.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({Key? key}) : super(key: key);
@@ -153,7 +154,10 @@ class Homepage extends StatelessWidget {
                               fontWeight: FontWeight.w500,
                               textColor: Colors.white,
                               text: "NEXT",
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.of(context).pushNamed("/secondPage");
+
+                              },
                             ),
                           ],
                         )

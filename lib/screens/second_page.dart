@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment_group_2/components/reusable_button.dart';
+
+import '../components/reusable_button.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({Key? key}) : super(key: key);
@@ -21,7 +22,7 @@ class SecondPage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: Color.fromARGB(255, 252, 249, 62),
+        backgroundColor: Color.fromRGBO(252, 249, 62, 1),
       ),
       body: SafeArea(
         child: Container(
@@ -37,7 +38,7 @@ class SecondPage extends StatelessWidget {
                 decoration: const BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: AssetImage("images/muscled-guy.jpg"),
+                    image: AssetImage("images/secondpage.jpg"),
                   ),
                 ),
               ),
