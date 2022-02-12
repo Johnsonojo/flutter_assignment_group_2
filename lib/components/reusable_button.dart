@@ -39,7 +39,10 @@ class ReusableButton extends StatelessWidget {
           child: Text(
             text,
             style: TextStyle(
-                color: textColor, fontSize: fontSize, fontWeight: fontWeight),
+                letterSpacing: 1.5,
+                color: textColor,
+                fontSize: fontSize,
+                fontWeight: fontWeight),
           ),
         ),
       ),
