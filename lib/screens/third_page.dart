@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../components/reusable_button.dart';
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({Key? key}) : super(key: key);
+class ThirdPage extends StatelessWidget {
+  const ThirdPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +22,11 @@ class SecondPage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: Color.fromRGBO(252, 249, 62, 1),
+        backgroundColor: Color.fromRGBO(236, 97, 206, 1),
       ),
       body: SafeArea(
         child: Container(
-          color: const Color.fromARGB(255, 252, 249, 62),
+          color: const Color.fromARGB(255, 236, 97, 206),
           height: height,
           width: width,
           child: Stack(
@@ -38,7 +38,7 @@ class SecondPage extends StatelessWidget {
                 decoration: const BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: AssetImage("images/secondpage.jpg"),
+                    image: AssetImage("images/muscularman.jpg"),
                   ),
                 ),
               ),
@@ -58,7 +58,7 @@ class SecondPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text(
-                          "Customize",
+                          "Let's go...",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
@@ -68,7 +68,7 @@ class SecondPage extends StatelessWidget {
                         Column(
                           children: [
                             Text(
-                              'Feel free to adjust your workout',
+                              'Get the new fitness updates',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -76,7 +76,7 @@ class SecondPage extends StatelessWidget {
                                   color: Colors.grey.shade700),
                             ),
                             Text(
-                              ' & diet settings according to',
+                              ' everyday & improve',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -84,7 +84,7 @@ class SecondPage extends StatelessWidget {
                                   color: Colors.grey.shade700),
                             ),
                             Text(
-                              ' your comfort.',
+                              ' performance.',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -155,8 +155,7 @@ class SecondPage extends StatelessWidget {
                               textColor: Colors.white,
                               text: "NEXT",
                               onPressed: () {
-                                  Navigator.of(context).pushNamed("/thirdPage");
-
+                                
                               },
                             ),
                           ],
