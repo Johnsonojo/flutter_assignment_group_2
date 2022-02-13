@@ -11,10 +11,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      
+
       routes:{
         '/home':(context) => const Homepage(),
         '/secondPage':(context) => const SecondPage(),
+        '/thirdPage':(context) => const ThirdPage(),
 
 
       },
