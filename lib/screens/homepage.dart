@@ -156,7 +156,6 @@ class Homepage extends StatelessWidget {
                               text: "NEXT",
                               onPressed: () {
                                 Navigator.of(context).pushNamed("/secondPage");
-
                               },
                             ),
                           ],
