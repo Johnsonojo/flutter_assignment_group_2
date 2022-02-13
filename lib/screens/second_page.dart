@@ -58,23 +58,23 @@ class SecondPage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
+                        const Text(
                           "Customize",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.grey.shade700),
+                              color: textColor),
                         ),
                         Column(
-                          children: [
+                          children: const [
                             Text(
                               'Feel free to adjust your workout',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' & diet settings according to',
@@ -82,7 +82,7 @@ class SecondPage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' your comfort.',
@@ -90,7 +90,7 @@ class SecondPage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                           ],
                         ),

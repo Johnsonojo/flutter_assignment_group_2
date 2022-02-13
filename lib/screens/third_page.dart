@@ -58,23 +58,23 @@ class ThirdPage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
+                        const Text(
                           "Let's go...",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.grey.shade700),
+                              color: textColor),
                         ),
                         Column(
-                          children: [
+                          children: const [
                             Text(
                               'Get the new fitness updates',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' everyday & improve',
@@ -82,7 +82,7 @@ class ThirdPage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' performance.',
@@ -90,7 +90,7 @@ class ThirdPage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                           ],
                         ),
@@ -105,7 +105,7 @@ class ThirdPage extends StatelessWidget {
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: const Color(0xFF768ded),
+                                      color: primaryColor,
                                     )),
                               ),
                             ),
