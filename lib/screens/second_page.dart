@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../components/reusable_button.dart';
 
-class Homepage extends StatelessWidget {
-  const Homepage({Key? key}) : super(key: key);
+class SecondPage extends StatelessWidget {
+  const SecondPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +22,11 @@ class Homepage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: const Color(0xFF768ded),
+        backgroundColor: Color.fromRGBO(252, 249, 62, 1),
       ),
       body: SafeArea(
         child: Container(
-          color: const Color(0xFF768ded),
+          color: const Color.fromARGB(255, 252, 249, 62),
           height: height,
           width: width,
           child: Stack(
@@ -38,7 +38,7 @@ class Homepage extends StatelessWidget {
                 decoration: const BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: AssetImage("images/muscled-guy.jpg"),
+                    image: AssetImage("images/secondpage.jpg"),
                   ),
                 ),
               ),
@@ -58,7 +58,7 @@ class Homepage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text(
-                          "Welcome!",
+                          "Customize",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
@@ -68,7 +68,7 @@ class Homepage extends StatelessWidget {
                         Column(
                           children: [
                             Text(
-                              'Explore all the new way to build',
+                              'Feel free to adjust your workout',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -76,7 +76,7 @@ class Homepage extends StatelessWidget {
                                   color: Colors.grey.shade700),
                             ),
                             Text(
-                              ' your fitness & find the',
+                              ' & diet settings according to',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -84,7 +84,7 @@ class Homepage extends StatelessWidget {
                                   color: Colors.grey.shade700),
                             ),
                             Text(
-                              ' perfect fit for you',
+                              ' your comfort.',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -154,10 +154,7 @@ class Homepage extends StatelessWidget {
                               fontWeight: FontWeight.w500,
                               textColor: Colors.white,
                               text: "NEXT",
-                              onPressed: () {
-                                Navigator.of(context).pushNamed("/secondPage");
-
-                              },
+                              onPressed: () {},
                             ),
                           ],
                         )
