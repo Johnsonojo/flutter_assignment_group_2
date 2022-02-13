@@ -23,7 +23,7 @@ class SecondPage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: Color.fromRGBO(252, 249, 62, 1),
+        backgroundColor: const Color.fromRGBO(252, 249, 62, 1),
       ),
       body: SafeArea(
         child: Container(

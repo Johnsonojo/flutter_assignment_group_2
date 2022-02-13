@@ -23,7 +23,7 @@ class ThirdPage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: Color.fromRGBO(236, 97, 206, 1),
+        backgroundColor: const Color.fromRGBO(236, 97, 206, 1),
       ),
       body: SafeArea(
         child: Container(
