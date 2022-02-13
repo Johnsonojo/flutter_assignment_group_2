@@ -115,7 +115,7 @@ class SecondPage extends StatelessWidget {
                                   height: 7.0,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(50.0),
-                                    color: Colors.grey,
+                                    color: secondaryColor,
                                   )),
                             ),
                             Padding(
@@ -126,7 +126,7 @@ class SecondPage extends StatelessWidget {
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: Colors.grey,
+                                      color: secondaryColor,
                                     )),
                               ),
                             ),
@@ -142,7 +142,7 @@ class SecondPage extends StatelessWidget {
                               width: MediaQuery.of(context).size.width / 3.3,
                               height: 55.0,
                               fontWeight: FontWeight.w500,
-                              textColor: Colors.grey,
+                              textColor: secondaryColor,
                               text: "Skip",
                               onPressed: () {},
                             ),
