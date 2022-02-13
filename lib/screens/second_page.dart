@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment_group_2/constants/theme.dart';
 
 import '../components/reusable_button.dart';
 
@@ -104,7 +105,7 @@ class SecondPage extends StatelessWidget {
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: const Color(0xFF768ded),
+                                      color: primaryColor,
                                     )),
                               ),
                             ),
