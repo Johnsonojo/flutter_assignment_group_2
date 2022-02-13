@@ -76,7 +76,7 @@ class ThirdPage extends StatelessWidget {
                                   color: Colors.grey.shade700),
                             ),
                             Text(
-                              ' & diet settings according to',
+                              ' everyday & improve',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
@@ -84,7 +84,7 @@ class ThirdPage extends StatelessWidget {
                                   color: Colors.grey.shade700),
                             ),
                             Text(
-                              ' your comfort.',
+                              ' performance.',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
