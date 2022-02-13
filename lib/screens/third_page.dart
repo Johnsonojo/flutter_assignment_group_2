@@ -58,7 +58,7 @@ class ThirdPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text(
-                          "Customize",
+                          "Let's go...",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
@@ -68,7 +68,7 @@ class ThirdPage extends StatelessWidget {
                         Column(
                           children: [
                             Text(
-                              'Feel free to adjust your workout',
+                              'Get the new fitness updates',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
