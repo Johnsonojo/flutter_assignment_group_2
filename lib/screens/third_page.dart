@@ -22,7 +22,7 @@ class ThirdPage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: Color.fromARGB(255, 236, 97, 206),
+        backgroundColor: Color.fromRGBO(236, 97, 206, 1),
       ),
       body: SafeArea(
         child: Container(
@@ -38,7 +38,7 @@ class ThirdPage extends StatelessWidget {
                 decoration: const BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: AssetImage("images/secondpage.jpg"),
+                    image: AssetImage("images/muscularman.jpg"),
                   ),
                 ),
               ),
