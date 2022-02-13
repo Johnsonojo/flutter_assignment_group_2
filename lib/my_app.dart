@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment_group_2/screens/second_page.dart';
-
-import 'screens/homepage.dart';
+import 'package:flutter_assignment_group_2/screens/homepage.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -11,7 +9,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-
       routes:{
         '/home':(context) => const Homepage(),
         '/secondPage':(context) => const SecondPage(),
@@ -19,7 +16,6 @@ class MyApp extends StatelessWidget {
 
 
       },
-
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
