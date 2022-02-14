@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_assignment_group_2/screens/second_page.dart';
+import 'package:flutter_assignment_group_2/screens/third_page.dart';
 
 import 'screens/homepage.dart';
 
@@ -11,14 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      
-      routes:{
-        '/home':(context) => const Homepage(),
-        '/secondPage':(context) => const SecondPage(),
-
-
+      routes: {
+        '/home': (context) => const Homepage(),
+        '/secondPage': (context) => const SecondPage(),
+        '/thirdPage': (context) => const ThirdPage(),
       },
-
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
