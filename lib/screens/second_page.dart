@@ -154,7 +154,9 @@ class SecondPage extends StatelessWidget {
                               fontWeight: FontWeight.w500,
                               textColor: Colors.white,
                               text: "NEXT",
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.of(context).pushNamed("/thirdPage");
+                              },
                             ),
                           ],
                         )
