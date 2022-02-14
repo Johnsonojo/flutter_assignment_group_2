@@ -101,21 +101,21 @@ class SecondPage extends StatelessWidget {
                               padding: const EdgeInsets.all(5.0),
                               child: SizedBox(
                                 child: Container(
-                                    width: 30.0,
-                                    height: 7.0,
+                                    width: 10.0,
+                                    height: 10.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: primaryColor,
+                                      color: secondaryColor,
                                     )),
                               ),
                             ),
                             SizedBox(
                               child: Container(
-                                  width: 10.0,
-                                  height: 7.0,
+                                  width: 30.0,
+                                  height: 10.0,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(50.0),
-                                    color: secondaryColor,
+                                    color: const Color(0xFFFDF93E),
                                   )),
                             ),
                             Padding(
@@ -123,7 +123,7 @@ class SecondPage extends StatelessWidget {
                               child: SizedBox(
                                 child: Container(
                                     width: 10.0,
-                                    height: 7.0,
+                                    height: 10.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
                                       color: secondaryColor,
