@@ -100,11 +100,11 @@ class ThirdPage extends StatelessWidget {
                               padding: const EdgeInsets.all(5.0),
                               child: SizedBox(
                                 child: Container(
-                                    width: 30.0,
+                                    width: 10.0,
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: const Color(0xFF768ded),
+                                      color: Colors.grey,
                                     )),
                               ),
                             ),
@@ -121,11 +121,11 @@ class ThirdPage extends StatelessWidget {
                               padding: const EdgeInsets.all(5.0),
                               child: SizedBox(
                                 child: Container(
-                                    width: 10.0,
-                                    height: 7.0,
+                                    width: 30.0,
+                                    height: 10.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: Colors.grey,
+                                      color: Color(0xFF768ded),
                                     )),
                               ),
                             ),
