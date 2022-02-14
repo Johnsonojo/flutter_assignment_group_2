@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment_group_2/constants/theme.dart';
 
 import '../components/reusable_button.dart';
 
@@ -22,7 +23,7 @@ class SecondPage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: Color.fromRGBO(252, 249, 62, 1),
+        backgroundColor: const Color.fromRGBO(252, 249, 62, 1),
       ),
       body: SafeArea(
         child: Container(
@@ -57,23 +58,23 @@ class SecondPage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
+                        const Text(
                           "Customize",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.grey.shade700),
+                              color: textColor),
                         ),
                         Column(
-                          children: [
+                          children: const [
                             Text(
                               'Feel free to adjust your workout',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' & diet settings according to',
@@ -81,7 +82,7 @@ class SecondPage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' your comfort.',
@@ -89,7 +90,7 @@ class SecondPage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                           ],
                         ),
@@ -100,21 +101,21 @@ class SecondPage extends StatelessWidget {
                               padding: const EdgeInsets.all(5.0),
                               child: SizedBox(
                                 child: Container(
-                                    width: 10.0,
+                                    width: 30.0,
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: Colors.grey,
+                                      color: primaryColor,
                                     )),
                               ),
                             ),
                             SizedBox(
                               child: Container(
-                                  width: 30.0,
-                                  height: 10.0,
+                                  width: 10.0,
+                                  height: 7.0,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(50.0),
-                                    color: Color(0xFF768ded),
+                                    color: secondaryColor,
                                   )),
                             ),
                             Padding(
@@ -125,7 +126,7 @@ class SecondPage extends StatelessWidget {
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: Colors.grey,
+                                      color: secondaryColor,
                                     )),
                               ),
                             ),
@@ -141,7 +142,7 @@ class SecondPage extends StatelessWidget {
                               width: MediaQuery.of(context).size.width / 3.3,
                               height: 55.0,
                               fontWeight: FontWeight.w500,
-                              textColor: Colors.grey,
+                              textColor: secondaryColor,
                               text: "Skip",
                               onPressed: () {},
                             ),

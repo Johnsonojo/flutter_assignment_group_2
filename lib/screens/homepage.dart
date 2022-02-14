@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment_group_2/constants/theme.dart';
 
 import '../components/reusable_button.dart';
 
@@ -22,11 +23,11 @@ class Homepage extends StatelessWidget {
           ),
         ),
         elevation: 0.0,
-        backgroundColor: const Color(0xFF768ded),
+        backgroundColor: primaryColor,
       ),
       body: SafeArea(
         child: Container(
-          color: const Color(0xFF768ded),
+          color: primaryColor,
           height: height,
           width: width,
           child: Stack(
@@ -57,23 +58,23 @@ class Homepage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
+                        const Text(
                           "Welcome!",
                           style: TextStyle(
                               letterSpacing: 1.5,
                               fontSize: 40.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.grey.shade700),
+                              color: textColor),
                         ),
                         Column(
-                          children: [
+                          children: const [
                             Text(
                               'Explore all the new way to build',
                               style: TextStyle(
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' your fitness & find the',
@@ -81,7 +82,7 @@ class Homepage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                             Text(
                               ' perfect fit for you',
@@ -89,7 +90,7 @@ class Homepage extends StatelessWidget {
                                   letterSpacing: 1.5,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.grey.shade700),
+                                  color: textColor),
                             ),
                           ],
                         ),
@@ -104,7 +105,7 @@ class Homepage extends StatelessWidget {
                                     height: 10.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: const Color(0xFF768ded),
+                                      color: primaryColor,
                                     )),
                               ),
                             ),
@@ -114,7 +115,7 @@ class Homepage extends StatelessWidget {
                                   height: 7.0,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(50.0),
-                                    color: Colors.grey,
+                                    color: secondaryColor,
                                   )),
                             ),
                             Padding(
@@ -125,7 +126,7 @@ class Homepage extends StatelessWidget {
                                     height: 7.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
-                                      color: Colors.grey,
+                                      color: secondaryColor,
                                     )),
                               ),
                             ),
@@ -141,7 +142,7 @@ class Homepage extends StatelessWidget {
                               width: MediaQuery.of(context).size.width / 3.3,
                               height: 55.0,
                               fontWeight: FontWeight.w500,
-                              textColor: Colors.grey,
+                              textColor: secondaryColor,
                               text: "Skip",
                               onPressed: () {},
                             ),
