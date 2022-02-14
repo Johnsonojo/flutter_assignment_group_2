@@ -112,7 +112,7 @@ class Homepage extends StatelessWidget {
                             SizedBox(
                               child: Container(
                                   width: 10.0,
-                                  height: 7.0,
+                                  height: 10.0,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(50.0),
                                     color: secondaryColor,
@@ -123,7 +123,7 @@ class Homepage extends StatelessWidget {
                               child: SizedBox(
                                 child: Container(
                                     width: 10.0,
-                                    height: 7.0,
+                                    height: 10.0,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(50.0),
                                       color: secondaryColor,
